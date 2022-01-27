@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+
+}
+
+.container-fluid{
+    animation-name: strol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-image: url(./img/trangchu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+    
+  
+}
+
+@keyframes strol {
+    0%   {background-image: url(./img/trangchu.png) }
+    25%  {background-image: url(./img/screen1.png);}
+    50%  {background-image: url(./img/screen2.png);}
+    75% {background-image: url(./img/screen3.png);}
+    100% {background-image: url(./img/screen4.jpg);}
+
+}
+.main{
+    height: 239px;
+    width: 1780px;
+    left: 70px;
+    top: 53px;
+    border-radius: 0px;
+}
+.col-1-md {
+    position: absolute;
+}
+.list{
+    padding: 35px 70px;
+
+}
+.none{
+    list-style-type: none;
+    padding: 15px;
+}
+.list li a, .menu li a {
+    text-decoration: none;
+    color: ivory;
+
+}
+.menu li {
+    margin: 10px;
+}
+.content{
+    padding: 53px 70px;
+    position: relative;
+}
+.menu {
+    
+    list-style-type: none;
+    position:absolute;
+    justify-content: flex-start;
+    right: 0px;
+    float: left;
+    display: flex;
+    
+}
+.menu-link{
+    color: ivory;
+}
+.ngonngu{
+    margin-top: 60px;
+    color: ivory;
+}
+.menu li a:hover{
+    color: lightslategrey;
+}
+.list li a:hover{
+    color: lightslategrey;
+}
+.danhmuc li{
+    color: blue;
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+.sanpham{
+    position: sticky;
+    width: 864px;
+    height: 833px;
+    left: 236px;
+    padding-top: 1000px;
+    filter: drop-shadow(-5px 5px 9px rgba(0, 0, 0, 0.3));
+
+}
+.x3{
+    color: blue;
+    display: flex;
+    float: left;
+    position: absolute;
+    right: 0px;
+    width: 600px;
+    padding: 70px;
+}
